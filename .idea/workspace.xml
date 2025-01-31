@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48863b85-bb13-41d9-bd57-d03cffd88962" name="Changes" comment="ExceptionHandling">
-      <change afterPath="$PROJECT_DIR$/PythonPractice/FileHandling.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonPractice/books.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonPractice/murakami.txt" afterDir="false" />
+    <list default="true" id="48863b85-bb13-41d9-bd57-d03cffd88962" name="Changes" comment="FileHandling">
+      <change afterPath="$PROJECT_DIR$/PythonPractice/Multiprocessing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PythonPractice/Multithreading.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,6 +66,8 @@
     "Python.Lambda.executor": "Run",
     "Python.Lambda_ReturnTypes (1).executor": "Run",
     "Python.List.executor": "Run",
+    "Python.Multiprocessing.executor": "Run",
+    "Python.Multithreading.executor": "Run",
     "Python.Polymorphism.executor": "Run",
     "Python.Sets.executor": "Run",
     "Python.String.executor": "Run",
@@ -85,7 +86,7 @@
       <recent name="C:\Users\Alian\Desktop\YM_Python\PythonPractice" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.FileHandling">
+  <component name="RunManager" selected="Python.Multiprocessing">
     <configuration name="Abstraction" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="YM_Python" />
       <option name="ENV_FILES" value="" />
@@ -100,28 +101,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonPractice/Abstraction.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Encapsulation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="YM_Python" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonPractice" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonPractice/Encapsulation.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -174,7 +153,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Polymorphism" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Multiprocessing" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="YM_Python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -187,7 +166,29 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonPractice/Polymorphism.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonPractice/Multiprocessing.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Multithreading" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="YM_Python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonPractice" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonPractice/Multithreading.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -198,11 +199,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Multiprocessing" />
+        <item itemvalue="Python.Multithreading" />
         <item itemvalue="Python.FileHandling" />
         <item itemvalue="Python.ExceptionHandling" />
         <item itemvalue="Python.Abstraction" />
-        <item itemvalue="Python.Encapsulation" />
-        <item itemvalue="Python.Polymorphism" />
       </list>
     </recent_temporary>
   </component>
@@ -262,7 +263,23 @@
       <option name="project" value="LOCAL" />
       <updated>1738314236613</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="FileHandling">
+      <option name="closed" value="true" />
+      <created>1738321141689</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1738321141689</updated>
+    </task>
+    <task id="LOCAL-00007" summary="FileHandling">
+      <option name="closed" value="true" />
+      <created>1738321175904</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1738321175904</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -292,6 +309,7 @@
     <MESSAGE value="Third commit" />
     <MESSAGE value="OOPs" />
     <MESSAGE value="ExceptionHandling" />
-    <option name="LAST_COMMIT_MESSAGE" value="ExceptionHandling" />
+    <MESSAGE value="FileHandling" />
+    <option name="LAST_COMMIT_MESSAGE" value="FileHandling" />
   </component>
 </project>
