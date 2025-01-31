@@ -76,6 +76,26 @@ p1.myfunc()
 
 #pass to class for no content
 
+#Static and Instance variable & Methods-------------------------------
+#Static -- Class and common stuff
+#Instance -- Objects and changeable stuff
+
+class Car:
+    wheels = 4 #static variable
+    def __init__(self,brand,model):
+        self.brand = brand #instance variable
+        self.model =model
+
+    def start_car(self):
+        print(self.brand+ "Model:" + self.model + "started")
+
+    @staticmethod
+    def pwheels():
+        print(Car.wheels) # called by class name
+
+s = Car("Maruti","swift")
+print(Car.wheels)
+Car.pwheels()
 
 
 
